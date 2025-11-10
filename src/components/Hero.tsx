@@ -1,17 +1,11 @@
 import { Button } from "./ui/button";
 import { Phone, ArrowRight } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center">
+  return <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroBackground}
-          alt="Professional landscaping"
-          className="w-full h-full object-cover"
-        />
+        <img src={heroBackground} alt="Professional landscaping" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-hero-dark/85"></div>
       </div>
 
@@ -26,28 +20,17 @@ const Hero = () => {
             Nordsjælland • Sjælland • København
           </p>
           
-          <p className="text-2xl md:text-3xl text-white font-bold mb-8 bg-lime/20 backdrop-blur-sm inline-block px-6 py-3 rounded-lg">
-            10% på brolægningsarbejde i hele 2025!
-          </p>
+          <p className="text-2xl md:text-3xl text-white font-bold mb-8 bg-lime/20 backdrop-blur-sm inline-block px-6 py-3 rounded-lg">10% på udvalgte jobs resten af 2025!</p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button
-              variant="outline"
-              size="lg"
-              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary text-lg font-semibold"
-              asChild
-            >
+            <Button variant="outline" size="lg" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary text-lg font-semibold" asChild>
               <a href="tel:71411573" className="flex items-center gap-2">
                 <Phone className="h-5 w-5" />
                 71 41 15 73
               </a>
             </Button>
             
-            <Button
-              asChild
-              size="lg"
-              className="bg-lime hover:bg-lime/90 text-foreground text-lg font-semibold"
-            >
+            <Button asChild size="lg" className="bg-lime hover:bg-lime/90 text-foreground text-lg font-semibold">
               <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com" className="flex items-center gap-2">
                 Få et tilbud
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -68,8 +51,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
