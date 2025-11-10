@@ -20,7 +20,7 @@ const Hero = () => {
             Nordsjælland • Sjælland • København
           </p>
           
-          <p className="text-2xl md:text-3xl text-white font-heading font-bold mb-8 bg-accent/20 backdrop-blur-sm inline-block px-6 py-3 rounded-lg">10% på udvalgte jobs resten af 2025!</p>
+          <p className="text-2xl md:text-3xl text-white font-heading font-bold mb-8 bg-accent/20 backdrop-blur-sm inline-block px-6 py-3 rounded-lg">Kontakt for et godt tilbud allerede i dag!</p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Button variant="outline" size="lg" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary text-lg font-heading font-semibold" asChild>
