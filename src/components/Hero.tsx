@@ -16,7 +16,7 @@ const Hero = () => {
             Din professionelle anlægsgartner
           </h1>
           
-          <p className="text-xl md:text-2xl text-accent font-heading font-semibold mb-4">
+          <p className="text-xl md:text-2xl text-white font-heading font-semibold mb-4">
             Nordsjælland • Sjælland • København
           </p>
           
