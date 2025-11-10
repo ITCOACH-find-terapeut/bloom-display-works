@@ -8,6 +8,14 @@ import Ydelser from "./pages/Ydelser";
 import Serviceaftaler from "./pages/Serviceaftaler";
 import OmOs from "./pages/OmOs";
 import NotFound from "./pages/NotFound";
+import Beplantning from "./pages/ydelser/Beplantning";
+import BeskaringAfTraerOgBuske from "./pages/ydelser/BeskaringAfTraerOgBuske";
+import Brolaegning from "./pages/ydelser/Brolaegning";
+import Havearbejde from "./pages/ydelser/Havearbejde";
+import Stottemur from "./pages/ydelser/Stottemur";
+import Traefaeldning from "./pages/ydelser/Traefaeldning";
+import VedligeholdelseAfGronneOmrader from "./pages/ydelser/VedligeholdelseAfGronneOmrader";
+import AnlaegningAGraesplaene from "./pages/ydelser/AnlaegningAGraesplaene";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +28,14 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/ydelser" element={<Ydelser />} />
+          <Route path="/ydelser/beplantning" element={<Beplantning />} />
+          <Route path="/ydelser/beskaering-af-traer-og-buske" element={<BeskaringAfTraerOgBuske />} />
+          <Route path="/ydelser/brolaegning" element={<Brolaegning />} />
+          <Route path="/ydelser/havearbejde" element={<Havearbejde />} />
+          <Route path="/ydelser/stottemur" element={<Stottemur />} />
+          <Route path="/ydelser/traefaeldning" element={<Traefaeldning />} />
+          <Route path="/ydelser/vedligeholdelse-af-gronne-omrader" element={<VedligeholdelseAfGronneOmrader />} />
+          <Route path="/ydelser/anlaegning-af-graesplaene" element={<AnlaegningAGraesplaene />} />
           <Route path="/serviceaftaler" element={<Serviceaftaler />} />
           <Route path="/om-os" element={<OmOs />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

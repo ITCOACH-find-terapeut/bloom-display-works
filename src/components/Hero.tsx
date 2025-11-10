@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img src={heroBackground} alt="Professional landscaping" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-hero-dark/85"></div>
+        <div className="absolute inset-0 bg-[hsl(var(--hero-dark))]/85"></div>
       </div>
 
       {/* Content */}

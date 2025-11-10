@@ -3,48 +3,59 @@ import Footer from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Scissors, TreeDeciduous, Hammer, Leaf, Shovel, Axe, Fence, Sprout } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Ydelser = () => {
+  const navigate = useNavigate();
+  
   const services = [
     {
       icon: <TreeDeciduous className="h-10 w-10" />,
       title: "Beplantning",
-      description: "Ekspertvalg og plantning af træer, buske og planter, der passer til din have og klimaet"
+      description: "Ekspertvalg og plantning af træer, buske og planter, der passer til din have og klimaet",
+      path: "/ydelser/beplantning"
     },
     {
       icon: <Scissors className="h-10 w-10" />,
       title: "Beskæring af træer og buske",
-      description: "Professionel beskæring for sundere planter og en pæn have året rundt"
+      description: "Professionel beskæring for sundere planter og en pæn have året rundt",
+      path: "/ydelser/beskaering-af-traer-og-buske"
     },
     {
       icon: <Hammer className="h-10 w-10" />,
       title: "Brolægning",
-      description: "Holdbare og æstetiske belægninger til stier, indkørsler og terrasser"
+      description: "Holdbare og æstetiske belægninger til stier, indkørsler og terrasser",
+      path: "/ydelser/brolaegning"
     },
     {
       icon: <Leaf className="h-10 w-10" />,
       title: "Havearbejde",
-      description: "Alt almindeligt havearbejde - fra ukrudtsbekæmpelse til græsslåning"
+      description: "Alt almindeligt havearbejde - fra ukrudtsbekæmpelse til græsslåning",
+      path: "/ydelser/havearbejde"
     },
     {
       icon: <Fence className="h-10 w-10" />,
       title: "Støttemur",
-      description: "Professionel anlæggelse af støttemure i forskellige materialer"
+      description: "Professionel anlæggelse af støttemure i forskellige materialer",
+      path: "/ydelser/stottemur"
     },
     {
       icon: <Axe className="h-10 w-10" />,
       title: "Træfældning",
-      description: "Sikker fældning af træer, uanset størrelse og placering"
+      description: "Sikker fældning af træer, uanset størrelse og placering",
+      path: "/ydelser/traefaeldning"
     },
     {
       icon: <Sprout className="h-10 w-10" />,
       title: "Vedligeholdelse af grønne områder",
-      description: "Regelmæssig pleje af fællesarealer og større grønne områder"
+      description: "Regelmæssig pleje af fællesarealer og større grønne områder",
+      path: "/ydelser/vedligeholdelse-af-gronne-omrader"
     },
     {
       icon: <Shovel className="h-10 w-10" />,
       title: "Anlægning af græsplæne",
-      description: "Nyt græs ved såning eller rullegræs for øjeblikkelig grøn have"
+      description: "Nyt græs ved såning eller rullegræs for øjeblikkelig grøn have",
+      path: "/ydelser/anlaegning-af-graesplaene"
     }
   ];
 
@@ -83,6 +94,7 @@ const Ydelser = () => {
                   <Button
                     variant="outline"
                     className="border-lime text-lime hover:bg-lime hover:text-foreground w-full"
+                    onClick={() => navigate(service.path)}
                   >
                     Læs mere
                   </Button>
@@ -106,8 +118,9 @@ const Ydelser = () => {
             <Button
               size="lg"
               className="bg-lime hover:bg-lime/90 text-foreground text-lg font-semibold"
+              asChild
             >
-              Kontakt os
+              <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">Kontakt os</a>
             </Button>
           </div>
         </div>
