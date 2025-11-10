@@ -75,7 +75,7 @@ const Traefaeldning = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Shield className="h-6 w-6 text-lime" />
-                  Specialfældninger
+                  Specialfældninger & stubfræsning
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -91,6 +91,10 @@ const Traefaeldning = () => {
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="h-5 w-5 text-lime mt-0.5 flex-shrink-0" />
                     <span>Nødfældning af farlige træer</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-lime mt-0.5 flex-shrink-0" />
+                    <span>Professionel stubfræsning og fjernelse af rødder</span>
                   </li>
                 </ul>
               </CardContent>

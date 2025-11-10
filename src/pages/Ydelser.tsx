@@ -24,7 +24,7 @@ const Ydelser = () => {
     {
       icon: <Hammer className="h-10 w-10" />,
       title: "Brolægning",
-      description: "Holdbare og æstetiske belægninger til stier, indkørsler og terrasser",
+      description: "Holdbare belægninger, fliseterrasser, fliselægning og nye indkørsler",
       path: "/ydelser/brolaegning"
     },
     {
@@ -56,6 +56,12 @@ const Ydelser = () => {
       title: "Anlægning af græsplæne",
       description: "Nyt græs ved såning eller rullegræs for øjeblikkelig grøn have",
       path: "/ydelser/anlaegning-af-graesplaene"
+    },
+    {
+      icon: <Fence className="h-10 w-10" />,
+      title: "Opsætning hegn",
+      description: "Professionel opsætning af hegn i træ, metal og andre materialer",
+      path: "/ydelser/opsaetning-hegn"
     }
   ];
 

@@ -81,11 +81,23 @@ const Havearbejde = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-lg">
                   <CheckCircle2 className="h-5 w-5 text-lime flex-shrink-0" />
-                  Haveoprydn ing
+                  Haveoprydning
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground">
                 Rydning af visne planter, blade og generel oprydning
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-lg">
+                  <CheckCircle2 className="h-5 w-5 text-lime flex-shrink-0" />
+                  Forårsklargøring
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-sm text-muted-foreground">
+                Komplet forberedelse af haven til den nye sæson med beskæring, oprydning og gødning
               </CardContent>
             </Card>
 
@@ -153,11 +165,11 @@ const Havearbejde = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-lg">
                   <CheckCircle2 className="h-5 w-5 text-lime flex-shrink-0" />
-                  Snerydning
+                  Snerydning og saltning
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground">
-                Rydning af sne og is om vinteren
+                Rydning af sne, saltning af indkørsler og stier om vinteren
               </CardContent>
             </Card>
           </div>

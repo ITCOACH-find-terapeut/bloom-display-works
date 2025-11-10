@@ -16,6 +16,7 @@ import Stottemur from "./pages/ydelser/Stottemur";
 import Traefaeldning from "./pages/ydelser/Traefaeldning";
 import VedligeholdelseAfGronneOmrader from "./pages/ydelser/VedligeholdelseAfGronneOmrader";
 import AnlaegningAGraesplaene from "./pages/ydelser/AnlaegningAGraesplaene";
+import OpsaetningHegn from "./pages/ydelser/OpsaetningHegn";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/ydelser/traefaeldning" element={<Traefaeldning />} />
           <Route path="/ydelser/vedligeholdelse-af-gronne-omrader" element={<VedligeholdelseAfGronneOmrader />} />
           <Route path="/ydelser/anlaegning-af-graesplaene" element={<AnlaegningAGraesplaene />} />
+          <Route path="/ydelser/opsaetning-hegn" element={<OpsaetningHegn />} />
           <Route path="/serviceaftaler" element={<Serviceaftaler />} />
           <Route path="/om-os" element={<OmOs />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

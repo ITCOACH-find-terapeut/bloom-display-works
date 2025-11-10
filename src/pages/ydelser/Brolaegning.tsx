@@ -52,7 +52,7 @@ const Brolaegning = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Vi lægger alle typer belægning
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -86,18 +86,47 @@ const Brolaegning = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Hammer className="h-6 w-6 text-lime" />
-                  Anvendelsesområder
+                  Terrasser & fliser
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="h-5 w-5 text-lime mt-0.5 flex-shrink-0" />
+                    <span>Fliseterrasser i træ eller komposit</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-lime mt-0.5 flex-shrink-0" />
+                    <span>Fliselægning indendørs og udendørs</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-lime mt-0.5 flex-shrink-0" />
                     <span>Terrasser og opholdsarealer</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="h-5 w-5 text-lime mt-0.5 flex-shrink-0" />
-                    <span>Indkørsler og parkeringspladser</span>
+                    <span>Vedligeholdelse af eksisterende terrasser</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Hammer className="h-6 w-6 text-lime" />
+                  Indkørsler & stier
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-lime mt-0.5 flex-shrink-0" />
+                    <span>Ny indkørsel med holdbare materialer</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-lime mt-0.5 flex-shrink-0" />
+                    <span>Parkeringspladser</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="h-5 w-5 text-lime mt-0.5 flex-shrink-0" />

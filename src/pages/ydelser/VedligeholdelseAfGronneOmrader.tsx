@@ -31,8 +31,14 @@ const VedligeholdelseAfGronneOmrader = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            <p className="text-lg leading-relaxed mb-6">
+              Vedligeholdelse af grønne områder kræver ekspertise, det rette udstyr og regelmæssig omsorg. Vi tilbyder professionel pleje af fællesarealer, parker, institutioner og erhvervsejendomme.
+            </p>
+            <p className="text-lg leading-relaxed mb-6">
+              Med serviceaftaler sikrer vi, at dine grønne områder altid fremstår velholdte og indbydende. Vi tilpasser plejen efter årstid, planternes behov og jeres ønsker.
+            </p>
             <p className="text-lg leading-relaxed">
-              Vi tilbyder skræddersyede vedligeholdelsesløsninger til erhvervsejendomme, boligforeninger og kommuner. Med faste serviceaftaler sikrer vi, at jeres grønne områder altid fremstår velholdte og indbydende.
+              Om vinteren står vi også klar med saltning og snerydning, så dine udendørsarealer er sikre og fremkommelige hele året.
             </p>
           </div>
         </div>
