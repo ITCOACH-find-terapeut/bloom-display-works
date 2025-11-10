@@ -275,10 +275,10 @@ const Beplantning = () => {
               Kontakt os i dag for en uforpligtende konsultation om beplantning af din have
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-lime hover:bg-lime/90 text-foreground text-lg font-semibold" asChild>
+              <Button size="lg" className="bg-accent hover:bg-accent-hover text-white text-lg font-semibold" asChild>
                 <a href="tel:71411573">Ring: 71 41 15 73</a>
               </Button>
-              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-primary text-lg font-semibold" asChild>
+              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-accent text-lg font-semibold" asChild>
                 <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">Send email</a>
               </Button>
             </div>
