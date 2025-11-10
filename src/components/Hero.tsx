@@ -44,11 +44,14 @@ const Hero = () => {
             </Button>
             
             <Button
+              asChild
               size="lg"
               className="bg-lime hover:bg-lime/90 text-foreground text-lg font-semibold"
             >
-              Bliv ringet op
-              <ArrowRight className="ml-2 h-5 w-5" />
+              <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com" className="flex items-center gap-2">
+                Få et tilbud
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
           </div>
         </div>

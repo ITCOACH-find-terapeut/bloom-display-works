@@ -12,39 +12,36 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <NavLink to="/" className="flex items-center gap-3">
+          <NavLink to="/" className="flex items-center">
             <img src={ekspertenLogo} alt="Eksperten.Online" className="h-12 w-auto" />
-            <span className="text-white font-bold text-lg hidden sm:block">
-              Eksperten.Online
-            </span>
           </NavLink>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
             <NavLink
               to="/"
-              className="text-white hover:text-lime transition-colors"
+              className="text-primary-foreground hover:text-lime transition-colors"
               activeClassName="text-lime font-semibold"
             >
               Forside
             </NavLink>
             <NavLink
               to="/ydelser"
-              className="text-white hover:text-lime transition-colors"
+              className="text-primary-foreground hover:text-lime transition-colors"
               activeClassName="text-lime font-semibold"
             >
               Ydelser
             </NavLink>
             <NavLink
               to="/serviceaftaler"
-              className="text-white hover:text-lime transition-colors"
+              className="text-primary-foreground hover:text-lime transition-colors"
               activeClassName="text-lime font-semibold"
             >
               Serviceaftaler
             </NavLink>
             <NavLink
               to="/om-os"
-              className="text-white hover:text-lime transition-colors"
+              className="text-primary-foreground hover:text-lime transition-colors"
               activeClassName="text-lime font-semibold"
             >
               Om os
@@ -55,19 +52,25 @@ const Navigation = () => {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="tel:71411573"
-              className="flex items-center gap-2 text-white hover:text-lime transition-colors"
+              className="flex items-center gap-2 text-primary-foreground hover:text-lime transition-colors"
             >
               <Phone className="h-5 w-5" />
               <span>71 41 15 73</span>
             </a>
-            <Button variant="default" className="bg-lime hover:bg-lime/90 text-foreground font-semibold">
-              Kontakt os
+            <Button 
+              asChild
+              variant="default" 
+              className="bg-lime hover:bg-lime/90 text-foreground font-semibold"
+            >
+              <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">
+                Kontakt os
+              </a>
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden text-white"
+            className="lg:hidden text-primary-foreground"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -81,7 +84,7 @@ const Navigation = () => {
             <div className="flex flex-col gap-4">
               <NavLink
                 to="/"
-                className="text-white hover:text-lime transition-colors py-2"
+                className="text-primary-foreground hover:text-lime transition-colors py-2"
                 activeClassName="text-lime font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -89,7 +92,7 @@ const Navigation = () => {
               </NavLink>
               <NavLink
                 to="/ydelser"
-                className="text-white hover:text-lime transition-colors py-2"
+                className="text-primary-foreground hover:text-lime transition-colors py-2"
                 activeClassName="text-lime font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -97,7 +100,7 @@ const Navigation = () => {
               </NavLink>
               <NavLink
                 to="/serviceaftaler"
-                className="text-white hover:text-lime transition-colors py-2"
+                className="text-primary-foreground hover:text-lime transition-colors py-2"
                 activeClassName="text-lime font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -105,7 +108,7 @@ const Navigation = () => {
               </NavLink>
               <NavLink
                 to="/om-os"
-                className="text-white hover:text-lime transition-colors py-2"
+                className="text-primary-foreground hover:text-lime transition-colors py-2"
                 activeClassName="text-lime font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -114,13 +117,19 @@ const Navigation = () => {
               <div className="flex flex-col gap-3 pt-4 border-t border-primary-foreground/20">
                 <a
                   href="tel:71411573"
-                  className="flex items-center gap-2 text-white hover:text-lime transition-colors"
+                  className="flex items-center gap-2 text-primary-foreground hover:text-lime transition-colors"
                 >
                   <Phone className="h-5 w-5" />
                   <span>71 41 15 73</span>
                 </a>
-                <Button variant="default" className="bg-lime hover:bg-lime/90 text-foreground font-semibold w-full">
-                  Kontakt os
+                <Button 
+                  asChild
+                  variant="default" 
+                  className="bg-lime hover:bg-lime/90 text-foreground font-semibold w-full"
+                >
+                  <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">
+                    Kontakt os
+                  </a>
                 </Button>
               </div>
             </div>

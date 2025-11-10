@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
+import ProjectGallery from "@/components/ProjectGallery";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Scissors, TreeDeciduous, Hammer, Leaf, Users, Award } from "lucide-react";
@@ -98,8 +99,11 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Project Gallery */}
+      <ProjectGallery />
+
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-white">
+      <section className="py-16 bg-hero-green text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Klar til at transformere din have?
@@ -108,10 +112,13 @@ const Index = () => {
             Kontakt os i dag for et uforpligtende tilbud
           </p>
           <Button
+            asChild
             size="lg"
             className="bg-lime hover:bg-lime/90 text-foreground text-lg font-semibold"
           >
-            Kontakt os nu
+            <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">
+              Få et tilbud
+            </a>
           </Button>
         </div>
       </section>
