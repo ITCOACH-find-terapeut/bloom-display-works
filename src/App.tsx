@@ -16,6 +16,7 @@ import Stottemur from "./pages/ydelser/Stottemur";
 import Traefaeldning from "./pages/ydelser/Traefaeldning";
 import VedligeholdelseAfGronneOmrader from "./pages/ydelser/VedligeholdelseAfGronneOmrader";
 import AnlaegningAGraesplaene from "./pages/ydelser/AnlaegningAGraesplaene";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/ydelser" element={<Ydelser />} />
