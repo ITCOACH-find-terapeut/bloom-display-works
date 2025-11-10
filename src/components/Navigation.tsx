@@ -8,7 +8,7 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-primary sticky top-0 z-50 shadow-lg">
+    <nav className="bg-muted sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -20,28 +20,28 @@ const Navigation = () => {
           <div className="hidden lg:flex items-center gap-8">
             <NavLink
               to="/"
-              className="text-primary-foreground hover:text-accent transition-colors font-heading font-medium"
+              className="text-foreground hover:text-accent transition-colors font-heading font-medium"
               activeClassName="text-accent font-semibold"
             >
               Forside
             </NavLink>
             <NavLink
               to="/ydelser"
-              className="text-primary-foreground hover:text-accent transition-colors font-heading font-medium"
+              className="text-foreground hover:text-accent transition-colors font-heading font-medium"
               activeClassName="text-accent font-semibold"
             >
               Ydelser
             </NavLink>
             <NavLink
               to="/serviceaftaler"
-              className="text-primary-foreground hover:text-accent transition-colors font-heading font-medium"
+              className="text-foreground hover:text-accent transition-colors font-heading font-medium"
               activeClassName="text-accent font-semibold"
             >
               Serviceaftaler
             </NavLink>
             <NavLink
               to="/om-os"
-              className="text-primary-foreground hover:text-accent transition-colors font-heading font-medium"
+              className="text-foreground hover:text-accent transition-colors font-heading font-medium"
               activeClassName="text-accent font-semibold"
             >
               Om os
@@ -52,7 +52,7 @@ const Navigation = () => {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="tel:71411573"
-              className="flex items-center gap-2 text-primary-foreground hover:text-accent transition-colors"
+              className="flex items-center gap-2 text-foreground hover:text-accent transition-colors"
             >
               <Phone className="h-5 w-5" />
               <span>71 41 15 73</span>
@@ -70,7 +70,7 @@ const Navigation = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden text-primary-foreground"
+            className="lg:hidden text-foreground"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -80,11 +80,11 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-primary-foreground/20">
+          <div className="lg:hidden py-4 border-t border-foreground/20">
             <div className="flex flex-col gap-4">
               <NavLink
                 to="/"
-                className="text-primary-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
+                className="text-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
                 activeClassName="text-accent font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -92,7 +92,7 @@ const Navigation = () => {
               </NavLink>
               <NavLink
                 to="/ydelser"
-                className="text-primary-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
+                className="text-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
                 activeClassName="text-accent font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -100,7 +100,7 @@ const Navigation = () => {
               </NavLink>
               <NavLink
                 to="/serviceaftaler"
-                className="text-primary-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
+                className="text-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
                 activeClassName="text-accent font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -108,16 +108,16 @@ const Navigation = () => {
               </NavLink>
               <NavLink
                 to="/om-os"
-                className="text-primary-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
+                className="text-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
                 activeClassName="text-accent font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Om os
               </NavLink>
-              <div className="flex flex-col gap-3 pt-4 border-t border-primary-foreground/20">
+              <div className="flex flex-col gap-3 pt-4 border-t border-foreground/20">
                 <a
                   href="tel:71411573"
-                  className="flex items-center gap-2 text-primary-foreground hover:text-accent transition-colors"
+                  className="flex items-center gap-2 text-foreground hover:text-accent transition-colors"
                 >
                   <Phone className="h-5 w-5" />
                   <span>71 41 15 73</span>
