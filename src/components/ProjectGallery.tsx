@@ -24,7 +24,7 @@ const ProjectGallery = () => {
           Billeder fra Projekter
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Se eksempler på vores professionelle arbejde med brolægning, havearbejde og anlægsgartneri i Nordsjælland
+          Se eksempler på vores professionelle arbejde med brolægning, havearbejde og Anlægsgartneri i Nordsjælland
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

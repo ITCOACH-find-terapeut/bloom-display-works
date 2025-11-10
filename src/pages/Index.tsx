@@ -35,7 +35,7 @@ const Index = () => {
     {
       icon: <Users className="h-12 w-12" />,
       title: "Erfarne fagfolk",
-      description: "Vi har mange års erfaring inden for anlægsgartnerarbejde"
+      description: "Vi har mange års erfaring inden for Anlægsgartnerarbejde"
     },
     {
       icon: <Award className="h-12 w-12" />,
@@ -48,8 +48,8 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <Helmet>
         <title>Eksperten.Online - Professionel Anlægsgartner i Birkerød, Nordsjælland</title>
-        <meta name="description" content="Din lokale anlægsgartner i Birkerød. Brolægning, træfældning, beplantning, havearbejde og meget mere. 10% rabat på udvalgte jobs i 2025. Ring 71 41 15 73" />
-        <meta name="keywords" content="anlægsgartner, Birkerød, Nordsjælland, brolægning, træfældning, havearbejde, beplantning, græsplæne, støttemur" />
+        <meta name="description" content="Din lokale Anlægsgartner i Birkerød. Brolægning, træfældning, beplantning, havearbejde og meget mere. 10% rabat på udvalgte jobs i 2025. Ring 71 41 15 73" />
+        <meta name="keywords" content="Anlægsgartner, Birkerød, Nordsjælland, brolægning, træfældning, havearbejde, beplantning, græsplæne, støttemur" />
       </Helmet>
       <Navigation />
       <Hero />

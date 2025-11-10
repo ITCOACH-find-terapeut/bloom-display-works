@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { Phone, ArrowRight } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
+import ekspertenLogo from "@/assets/eksperten-logo.png";
 const Hero = () => {
   return <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center">
       {/* Background Image with Overlay */}
@@ -10,10 +11,16 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl">
+      <div className="container mx-auto px-4 relative z-10 flex justify-center">
+        <div className="max-w-3xl text-center">
+          <img 
+            src={ekspertenLogo} 
+            alt="Eksperten.Online" 
+            className="h-24 md:h-32 lg:h-40 w-auto mb-6 mx-auto" 
+          />
+          
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 leading-tight">
-            Din professionelle anlægsgartner
+            Din professionelle Anlægsgartner
           </h1>
           
           <p className="text-xl md:text-2xl text-white font-heading font-semibold mb-4">
@@ -22,7 +29,7 @@ const Hero = () => {
           
           <p className="text-2xl md:text-3xl text-white font-heading font-bold mb-8 bg-accent/15 backdrop-blur-sm inline-block px-6 py-3 rounded-lg">Kontakt for et godt tilbud allerede i dag!</p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" size="lg" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary text-lg font-heading font-semibold" asChild>
               <a href="tel:71411573" className="flex items-center gap-2">
                 <Phone className="h-5 w-5" />

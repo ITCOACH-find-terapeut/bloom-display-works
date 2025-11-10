@@ -10,8 +10,8 @@ const OmOs = () => {
     <div className="min-h-screen flex flex-col">
       <Helmet>
         <title>Om Os - Eksperten.Online Anlægsgartner | Erfaring & Kvalitet siden 1999</title>
-        <meta name="description" content="Lær mere om Eksperten.Online - din lokale anlægsgartner i Birkerød med over 20 års erfaring. Vi leverer kvalitet, professionalisme og kundetilfredshed." />
-        <meta name="keywords" content="om os, anlægsgartner, Birkerød, erfaring, kvalitet, professionalisme" />
+        <meta name="description" content="Lær mere om Eksperten.Online - din lokale Anlægsgartner i Birkerød med over 20 års erfaring. Vi leverer kvalitet, professionalisme og kundetilfredshed." />
+        <meta name="keywords" content="om os, Anlægsgartner, Birkerød, erfaring, kvalitet, professionalisme" />
       </Helmet>
       <Navigation />
 
@@ -19,7 +19,7 @@ const OmOs = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">Om os</h1>
-            <p className="text-xl text-white/90 font-body">Din pålidelige partner i anlægsgartnerarbejde</p>
+            <p className="text-xl text-white/90 font-body">Din pålidelige partner i Anlægsgartnerarbejde</p>
           </div>
         </div>
       </section>
@@ -28,7 +28,7 @@ const OmOs = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <p className="text-lg leading-relaxed mb-6 font-body">
-              Vi er en erfaren anlægsgartnervirksomhed med base i Birkerød, der betjener hele Nordsjælland. Med mange års erfaring i branchen leverer vi professionelle løsninger til både private og erhvervskunder.
+              Vi er en erfaren Anlægsgartnervirksomhed med base i Birkerød, der betjener hele Nordsjælland. Med mange års erfaring i branchen leverer vi professionelle løsninger til både private og erhvervskunder.
             </p>
             <p className="text-lg leading-relaxed font-body">
               Vores team består af dygtige fagfolk, der brænder for at skabe smukke og funktionelle uderum. Vi tager os af alt fra mindre havearbejde til store anlægsprojekter og tilbyder altid håndværk i højeste kvalitet.

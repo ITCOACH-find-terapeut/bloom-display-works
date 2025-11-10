@@ -12,7 +12,7 @@ const Footer = () => {
               <img src={ekspertenLogo} alt="Eksperten.Online" className="h-10 w-auto" />
             </div>
             <p className="text-white/80 font-body">
-              Din professionelle anlægsgartner i Birkerød, Nordsjælland
+              Din professionelle Anlægsgartner i Birkerød, Nordsjælland
             </p>
             <p className="text-white/80 text-sm mt-2 font-body">
               CVR: 44840715

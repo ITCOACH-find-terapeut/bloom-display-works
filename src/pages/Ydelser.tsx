@@ -77,7 +77,7 @@ const Ydelser = () => {
               Vores ydelser
             </h1>
             <p className="text-xl text-white/90">
-              Vi tilbyder et komplet udvalg af professionelle anlægsgartnertjenester til private og erhverv
+              Vi tilbyder et komplet udvalg af professionelle Anlægsgartnertjenester til private og erhverv
             </p>
           </div>
         </div>
