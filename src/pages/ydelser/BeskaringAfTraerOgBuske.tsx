@@ -306,7 +306,7 @@ const BeskaringAfTraerOgBuske = () => {
               <Button size="lg" className="bg-accent hover:bg-accent-hover text-white text-lg font-semibold" asChild>
                 <a href="tel:71411573">Ring: 71 41 15 73</a>
               </Button>
-              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-accent text-lg font-semibold" asChild>
+              <Button size="lg" variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-accent text-lg font-semibold" asChild>
                 <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">Send email</a>
               </Button>
             </div>
