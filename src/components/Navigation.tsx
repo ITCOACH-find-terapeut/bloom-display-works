@@ -20,28 +20,28 @@ const Navigation = () => {
           <div className="hidden lg:flex items-center gap-8">
             <NavLink
               to="/"
-              className="text-primary-foreground hover:text-lime transition-colors"
+              className="text-primary-foreground hover:text-lime transition-colors font-heading font-medium"
               activeClassName="text-lime font-semibold"
             >
               Forside
             </NavLink>
             <NavLink
               to="/ydelser"
-              className="text-primary-foreground hover:text-lime transition-colors"
+              className="text-primary-foreground hover:text-lime transition-colors font-heading font-medium"
               activeClassName="text-lime font-semibold"
             >
               Ydelser
             </NavLink>
             <NavLink
               to="/serviceaftaler"
-              className="text-primary-foreground hover:text-lime transition-colors"
+              className="text-primary-foreground hover:text-lime transition-colors font-heading font-medium"
               activeClassName="text-lime font-semibold"
             >
               Serviceaftaler
             </NavLink>
             <NavLink
               to="/om-os"
-              className="text-primary-foreground hover:text-lime transition-colors"
+              className="text-primary-foreground hover:text-lime transition-colors font-heading font-medium"
               activeClassName="text-lime font-semibold"
             >
               Om os
@@ -60,7 +60,7 @@ const Navigation = () => {
             <Button 
               asChild
               variant="default" 
-              className="bg-lime hover:bg-lime/90 text-foreground font-semibold"
+              className="bg-lime hover:bg-lime/90 text-foreground font-heading font-semibold"
             >
               <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">
                 Kontakt os
@@ -84,7 +84,7 @@ const Navigation = () => {
             <div className="flex flex-col gap-4">
               <NavLink
                 to="/"
-                className="text-primary-foreground hover:text-lime transition-colors py-2"
+                className="text-primary-foreground hover:text-lime transition-colors py-2 font-heading font-medium"
                 activeClassName="text-lime font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -92,7 +92,7 @@ const Navigation = () => {
               </NavLink>
               <NavLink
                 to="/ydelser"
-                className="text-primary-foreground hover:text-lime transition-colors py-2"
+                className="text-primary-foreground hover:text-lime transition-colors py-2 font-heading font-medium"
                 activeClassName="text-lime font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -100,7 +100,7 @@ const Navigation = () => {
               </NavLink>
               <NavLink
                 to="/serviceaftaler"
-                className="text-primary-foreground hover:text-lime transition-colors py-2"
+                className="text-primary-foreground hover:text-lime transition-colors py-2 font-heading font-medium"
                 activeClassName="text-lime font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -108,7 +108,7 @@ const Navigation = () => {
               </NavLink>
               <NavLink
                 to="/om-os"
-                className="text-primary-foreground hover:text-lime transition-colors py-2"
+                className="text-primary-foreground hover:text-lime transition-colors py-2 font-heading font-medium"
                 activeClassName="text-lime font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -125,7 +125,7 @@ const Navigation = () => {
                 <Button 
                   asChild
                   variant="default" 
-                  className="bg-lime hover:bg-lime/90 text-foreground font-semibold w-full"
+                  className="bg-lime hover:bg-lime/90 text-foreground font-heading font-semibold w-full"
                 >
                   <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">
                     Kontakt os

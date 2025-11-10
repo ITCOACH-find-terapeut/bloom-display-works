@@ -11,18 +11,18 @@ const Footer = () => {
             <div className="flex items-center mb-4">
               <img src={ekspertenLogo} alt="Eksperten.Online" className="h-10 w-auto" />
             </div>
-            <p className="text-white/80">
+            <p className="text-white/80 font-body">
               Din professionelle anlægsgartner i Birkerød, Nordsjælland
             </p>
-            <p className="text-white/80 text-sm mt-2">
+            <p className="text-white/80 text-sm mt-2 font-body">
               CVR: 44840715
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-bold text-lg mb-4 text-white">Links</h3>
-            <ul className="space-y-2">
+            <h3 className="font-heading font-bold text-lg mb-4 text-white">Links</h3>
+            <ul className="space-y-2 font-body">
               <li>
                 <a href="/" className="text-white/80 hover:text-lime transition-colors">
                   Forside
@@ -48,8 +48,8 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-bold text-lg mb-4 text-white">Kontakt</h3>
-            <ul className="space-y-3">
+            <h3 className="font-heading font-bold text-lg mb-4 text-white">Kontakt</h3>
+            <ul className="space-y-3 font-body">
               <li>
                 <a
                   href="tel:71411573"
@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-white/20 pt-8 text-center text-white/60">
+        <div className="border-t border-white/20 pt-8 text-center text-white/60 font-body">
           <p>&copy; {new Date().getFullYear()} Eksperten.Online. Alle rettigheder forbeholdes.</p>
         </div>
       </div>

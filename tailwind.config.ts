@@ -13,6 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'heading': ['Outfit', 'system-ui', 'sans-serif'],
+        'body': ['Inter', 'system-ui', 'sans-serif'],
+        'sans': ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -52,6 +57,9 @@ export default {
           dark: "hsl(var(--hero-dark))",
         },
         lime: "hsl(var(--lime-green))",
+        navy: "hsl(var(--navy-dark))",
+        olive: "hsl(var(--olive-green))",
+        beige: "hsl(var(--warm-beige))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

@@ -9,39 +9,41 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 212 53% 9%;
+    --foreground: 200 91% 13%;
 
     --card: 0 0% 100%;
-    --card-foreground: 212 53% 9%;
+    --card-foreground: 200 91% 13%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 212 53% 9%;
+    --popover-foreground: 200 91% 13%;
 
-    --primary: 186 24% 45%;
-    --primary-foreground: 212 53% 9%;
+    --primary: 193 38% 33%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 147 96% 18%;
+    --secondary: 88 8% 42%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 186 24% 96%;
-    --muted-foreground: 186 24% 35%;
+    --muted: 188 11% 73%;
+    --muted-foreground: 200 91% 13%;
 
-    --accent: 144 90% 23%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 35 18% 62%;
+    --accent-foreground: 200 91% 13%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 186 24% 88%;
-    --input: 186 24% 88%;
-    --ring: 74 65% 58%;
+    --border: 188 11% 85%;
+    --input: 188 11% 85%;
+    --ring: 193 38% 33%;
 
     --radius: 0.5rem;
     
-    --hero-green: 147 96% 18%;
-    --hero-dark: 152 88% 13%;
+    --hero-green: 200 91% 13%;
+    --hero-dark: 200 91% 10%;
     --lime-green: 74 65% 58%;
-    --navy-dark: 212 53% 9%;
+    --navy-dark: 200 91% 13%;
+    --olive-green: 88 8% 42%;
+    --warm-beige: 35 18% 62%;
 
     --sidebar-background: 0 0% 98%;
 
@@ -61,38 +63,40 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 212 53% 9%;
+    --background: 200 91% 13%;
     --foreground: 0 0% 98%;
 
-    --card: 212 45% 15%;
+    --card: 193 38% 20%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 212 45% 15%;
+    --popover: 193 38% 20%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 186 24% 45%;
-    --primary-foreground: 212 53% 9%;
+    --primary: 193 38% 33%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 147 96% 18%;
+    --secondary: 88 8% 42%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 212 30% 20%;
-    --muted-foreground: 186 20% 70%;
+    --muted: 193 30% 25%;
+    --muted-foreground: 188 11% 73%;
 
-    --accent: 144 90% 23%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 35 18% 62%;
+    --accent-foreground: 200 91% 13%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 212 30% 20%;
-    --input: 212 30% 20%;
-    --ring: 74 65% 58%;
+    --border: 193 30% 25%;
+    --input: 193 30% 25%;
+    --ring: 193 38% 33%;
     
-    --hero-green: 147 96% 18%;
-    --hero-dark: 152 88% 13%;
+    --hero-green: 200 91% 13%;
+    --hero-dark: 200 91% 10%;
     --lime-green: 74 65% 58%;
-    --navy-dark: 212 53% 9%;
+    --navy-dark: 200 91% 13%;
+    --olive-green: 88 8% 42%;
+    --warm-beige: 35 18% 62%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -110,6 +114,14 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+  
+  button {
+    @apply font-heading;
   }
 }
