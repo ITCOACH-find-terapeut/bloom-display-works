@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img src={heroBackground} alt="Professional landscaping" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-[hsl(var(--hero-dark))]/85"></div>
+        <div className="absolute inset-0 bg-[hsl(var(--hero-dark))]/70"></div>
       </div>
 
       {/* Content */}
@@ -20,7 +20,7 @@ const Hero = () => {
             Nordsjælland • Sjælland • København
           </p>
           
-          <p className="text-2xl md:text-3xl text-white font-heading font-bold mb-8 bg-accent/20 backdrop-blur-sm inline-block px-6 py-3 rounded-lg">Kontakt for et godt tilbud allerede i dag!</p>
+          <p className="text-2xl md:text-3xl text-white font-heading font-bold mb-8 bg-accent/15 backdrop-blur-sm inline-block px-6 py-3 rounded-lg">Kontakt for et godt tilbud allerede i dag!</p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Button variant="outline" size="lg" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary text-lg font-heading font-semibold" asChild>
