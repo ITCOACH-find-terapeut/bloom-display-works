@@ -20,29 +20,29 @@ const Navigation = () => {
           <div className="hidden lg:flex items-center gap-8">
             <NavLink
               to="/"
-              className="text-primary-foreground hover:text-lime transition-colors font-heading font-medium"
-              activeClassName="text-lime font-semibold"
+              className="text-primary-foreground hover:text-accent transition-colors font-heading font-medium"
+              activeClassName="text-accent font-semibold"
             >
               Forside
             </NavLink>
             <NavLink
               to="/ydelser"
-              className="text-primary-foreground hover:text-lime transition-colors font-heading font-medium"
-              activeClassName="text-lime font-semibold"
+              className="text-primary-foreground hover:text-accent transition-colors font-heading font-medium"
+              activeClassName="text-accent font-semibold"
             >
               Ydelser
             </NavLink>
             <NavLink
               to="/serviceaftaler"
-              className="text-primary-foreground hover:text-lime transition-colors font-heading font-medium"
-              activeClassName="text-lime font-semibold"
+              className="text-primary-foreground hover:text-accent transition-colors font-heading font-medium"
+              activeClassName="text-accent font-semibold"
             >
               Serviceaftaler
             </NavLink>
             <NavLink
               to="/om-os"
-              className="text-primary-foreground hover:text-lime transition-colors font-heading font-medium"
-              activeClassName="text-lime font-semibold"
+              className="text-primary-foreground hover:text-accent transition-colors font-heading font-medium"
+              activeClassName="text-accent font-semibold"
             >
               Om os
             </NavLink>
@@ -52,7 +52,7 @@ const Navigation = () => {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="tel:71411573"
-              className="flex items-center gap-2 text-primary-foreground hover:text-lime transition-colors"
+              className="flex items-center gap-2 text-primary-foreground hover:text-accent transition-colors"
             >
               <Phone className="h-5 w-5" />
               <span>71 41 15 73</span>
@@ -60,7 +60,7 @@ const Navigation = () => {
             <Button 
               asChild
               variant="default" 
-              className="bg-lime hover:bg-lime/90 text-foreground font-heading font-semibold"
+              className="bg-accent hover:bg-accent-hover text-accent-foreground font-heading font-semibold"
             >
               <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">
                 Kontakt os
@@ -84,32 +84,32 @@ const Navigation = () => {
             <div className="flex flex-col gap-4">
               <NavLink
                 to="/"
-                className="text-primary-foreground hover:text-lime transition-colors py-2 font-heading font-medium"
-                activeClassName="text-lime font-semibold"
+                className="text-primary-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
+                activeClassName="text-accent font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Forside
               </NavLink>
               <NavLink
                 to="/ydelser"
-                className="text-primary-foreground hover:text-lime transition-colors py-2 font-heading font-medium"
-                activeClassName="text-lime font-semibold"
+                className="text-primary-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
+                activeClassName="text-accent font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Ydelser
               </NavLink>
               <NavLink
                 to="/serviceaftaler"
-                className="text-primary-foreground hover:text-lime transition-colors py-2 font-heading font-medium"
-                activeClassName="text-lime font-semibold"
+                className="text-primary-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
+                activeClassName="text-accent font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Serviceaftaler
               </NavLink>
               <NavLink
                 to="/om-os"
-                className="text-primary-foreground hover:text-lime transition-colors py-2 font-heading font-medium"
-                activeClassName="text-lime font-semibold"
+                className="text-primary-foreground hover:text-accent transition-colors py-2 font-heading font-medium"
+                activeClassName="text-accent font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Om os
@@ -117,7 +117,7 @@ const Navigation = () => {
               <div className="flex flex-col gap-3 pt-4 border-t border-primary-foreground/20">
                 <a
                   href="tel:71411573"
-                  className="flex items-center gap-2 text-primary-foreground hover:text-lime transition-colors"
+                  className="flex items-center gap-2 text-primary-foreground hover:text-accent transition-colors"
                 >
                   <Phone className="h-5 w-5" />
                   <span>71 41 15 73</span>
@@ -125,7 +125,7 @@ const Navigation = () => {
                 <Button 
                   asChild
                   variant="default" 
-                  className="bg-lime hover:bg-lime/90 text-foreground font-heading font-semibold w-full"
+                  className="bg-accent hover:bg-accent-hover text-accent-foreground font-heading font-semibold w-full"
                 >
                   <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">
                     Kontakt os

@@ -24,22 +24,22 @@ const Footer = () => {
             <h3 className="font-heading font-bold text-lg mb-4 text-white">Links</h3>
             <ul className="space-y-2 font-body">
               <li>
-                <a href="/" className="text-white/80 hover:text-lime transition-colors">
+                <a href="/" className="text-white/80 hover:text-accent transition-colors">
                   Forside
                 </a>
               </li>
               <li>
-                <a href="/ydelser" className="text-white/80 hover:text-lime transition-colors">
+                <a href="/ydelser" className="text-white/80 hover:text-accent transition-colors">
                   Ydelser
                 </a>
               </li>
               <li>
-                <a href="/serviceaftaler" className="text-white/80 hover:text-lime transition-colors">
+                <a href="/serviceaftaler" className="text-white/80 hover:text-accent transition-colors">
                   Serviceaftaler
                 </a>
               </li>
               <li>
-                <a href="/om-os" className="text-white/80 hover:text-lime transition-colors">
+                <a href="/om-os" className="text-white/80 hover:text-accent transition-colors">
                   Om os
                 </a>
               </li>
@@ -53,7 +53,7 @@ const Footer = () => {
               <li>
                 <a
                   href="tel:71411573"
-                  className="flex items-center gap-2 text-white/80 hover:text-lime transition-colors"
+                  className="flex items-center gap-2 text-white/80 hover:text-accent transition-colors"
                 >
                   <Phone className="h-5 w-5" />
                   71 41 15 73
@@ -62,7 +62,7 @@ const Footer = () => {
               <li>
                 <a
                   href="mailto:Eksperten_Anlgsgartneri@yahoo.com"
-                  className="flex items-center gap-2 text-white/80 hover:text-lime transition-colors"
+                  className="flex items-center gap-2 text-white/80 hover:text-accent transition-colors"
                 >
                   <Mail className="h-5 w-5" />
                   Eksperten_Anlgsgartneri@yahoo.com

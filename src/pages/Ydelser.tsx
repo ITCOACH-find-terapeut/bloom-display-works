@@ -82,9 +82,9 @@ const Ydelser = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <Card key={index} className="hover:shadow-xl transition-all hover:border-lime border-2 h-full">
+              <Card key={index} className="hover:shadow-xl transition-all hover:border-accent border-2 h-full">
                 <CardHeader>
-                  <div className="text-lime mb-4">{service.icon}</div>
+                  <div className="text-accent mb-4">{service.icon}</div>
                   <CardTitle className="text-2xl mb-2">{service.title}</CardTitle>
                   <CardDescription className="text-base leading-relaxed">
                     {service.description}
@@ -93,7 +93,7 @@ const Ydelser = () => {
                 <CardContent>
                   <Button
                     variant="outline"
-                    className="border-lime text-lime hover:bg-lime hover:text-foreground w-full"
+                    className="border-accent text-accent hover:bg-accent hover:text-accent-foreground w-full"
                     onClick={() => navigate(service.path)}
                   >
                     Læs mere
@@ -117,7 +117,7 @@ const Ydelser = () => {
             </p>
             <Button
               size="lg"
-              className="bg-lime hover:bg-lime/90 text-foreground text-lg font-semibold"
+              className="bg-accent hover:bg-accent-hover text-accent-foreground text-lg font-semibold"
               asChild
             >
               <a href="mailto:Eksperten_Anlgsgartneri@yahoo.com">Kontakt os</a>
