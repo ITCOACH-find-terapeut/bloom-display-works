@@ -1,0 +1,72 @@
+import { Button } from "./ui/button";
+import { Phone, ArrowRight } from "lucide-react";
+import heroBackground from "@/assets/hero-background.jpg";
+
+const Hero = () => {
+  return (
+    <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src={heroBackground}
+          alt="Professional landscaping"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-hero-dark/85"></div>
+      </div>
+
+      {/* Content */}
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-3xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            Din professionelle anlægsgartner
+          </h1>
+          
+          <p className="text-xl md:text-2xl text-lime font-semibold mb-4">
+            Nordsjælland • Sjælland • København
+          </p>
+          
+          <p className="text-2xl md:text-3xl text-white font-bold mb-8 bg-lime/20 backdrop-blur-sm inline-block px-6 py-3 rounded-lg">
+            10% på brolægningsarbejde i hele 2025!
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button
+              variant="outline"
+              size="lg"
+              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary text-lg font-semibold"
+              asChild
+            >
+              <a href="tel:61426494" className="flex items-center gap-2">
+                <Phone className="h-5 w-5" />
+                61 42 64 94
+              </a>
+            </Button>
+            
+            <Button
+              size="lg"
+              className="bg-lime hover:bg-lime/90 text-foreground text-lg font-semibold"
+            >
+              Bliv ringet op
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </div>
+        </div>
+      </div>
+
+      {/* Floating Contact Bubble - Desktop */}
+      <div className="hidden xl:block absolute bottom-10 left-10 z-10">
+        <div className="bg-lime rounded-full p-8 max-w-xs shadow-2xl">
+          <p className="text-foreground font-bold text-lg mb-2">
+            Ønsker du at høre mere?
+          </p>
+          <p className="text-foreground">
+            Kontakt os endelig for et uforpligtende tilbud!
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
