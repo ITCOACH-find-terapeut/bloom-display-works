@@ -37,9 +37,9 @@ const Hero = () => {
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary text-lg font-semibold"
               asChild
             >
-              <a href="tel:61426494" className="flex items-center gap-2">
+              <a href="tel:71411573" className="flex items-center gap-2">
                 <Phone className="h-5 w-5" />
-                61 42 64 94
+                71 41 15 73
               </a>
             </Button>
             

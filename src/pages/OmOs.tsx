@@ -40,7 +40,7 @@ const OmOs = () => {
               Om os
             </h1>
             <p className="text-xl text-white/90">
-              Havens Nøgle ApS - Din pålidelige partner inden for anlægsgartnerarbejde
+              Eksperten.Online - Din pålidelige partner inden for anlægsgartnerarbejde
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ const OmOs = () => {
               <h2 className="text-3xl font-bold mb-6">Hvem er vi?</h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-muted-foreground mb-4">
-                  Havens Nøgle ApS er en professionel anlægsgartnerfirma med base i Nordsjælland. 
+                  Eksperten.Online er en professionel anlægsgartnerfirma med base i Birkerød, Nordsjælland. 
                   Vi har mange års erfaring inden for alle typer havearbejde og anlægsgartnerarbejde.
                 </p>
                 <p className="text-lg text-muted-foreground mb-4">
@@ -120,7 +120,7 @@ const OmOs = () => {
               className="bg-lime hover:bg-lime/90 text-foreground text-lg font-semibold"
               asChild
             >
-              <a href="tel:61426494">Ring til os</a>
+              <a href="tel:71411573">Ring til os</a>
             </Button>
             <Button
               size="lg"

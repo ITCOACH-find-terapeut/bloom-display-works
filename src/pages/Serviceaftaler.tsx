@@ -41,7 +41,7 @@ const Serviceaftaler = () => {
                 Hvorfor vælge en serviceaftale?
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Med en serviceaftale hos Havens Nøgle ApS sikrer du, at din have altid ser flot ud. 
+                Med en serviceaftale hos Eksperten.Online sikrer du, at din have altid ser flot ud. 
                 Vi planlægger og udfører alle nødvendige opgaver, så du kan nyde din have uden bekymringer.
               </p>
 
@@ -112,7 +112,7 @@ const Serviceaftaler = () => {
             size="lg"
             className="bg-lime hover:bg-lime/90 text-foreground text-lg font-semibold"
           >
-            Ring til os: 61 42 64 94
+            Ring til os: 71 41 15 73
           </Button>
         </div>
       </section>

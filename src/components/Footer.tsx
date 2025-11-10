@@ -1,5 +1,5 @@
 import { Mail, Phone, MapPin } from "lucide-react";
-import treeLogo from "@/assets/tree-logo.png";
+import ekspertenLogo from "@/assets/eksperten-logo.png";
 
 const Footer = () => {
   return (
@@ -9,11 +9,14 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src={treeLogo} alt="Havens Nøgle ApS" className="h-10 w-auto" />
-              <span className="font-bold text-lg">Havens Nøgle ApS</span>
+              <img src={ekspertenLogo} alt="Eksperten.Online" className="h-10 w-auto" />
+              <span className="font-bold text-lg">Eksperten.Online</span>
             </div>
             <p className="text-white/80">
-              Din professionelle anlægsgartner i Nordsjælland, Sjælland og København
+              Din professionelle anlægsgartner i Birkerød, Nordsjælland
+            </p>
+            <p className="text-white/80 text-sm mt-2">
+              CVR: 44840715
             </p>
           </div>
 
@@ -50,32 +53,32 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:61426494"
+                  href="tel:71411573"
                   className="flex items-center gap-2 text-white/80 hover:text-lime transition-colors"
                 >
                   <Phone className="h-5 w-5" />
-                  61 42 64 94
+                  71 41 15 73
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:info@havensnogle.dk"
+                  href="mailto:Eksperten_Anlgsgartneri@yahoo.com"
                   className="flex items-center gap-2 text-white/80 hover:text-lime transition-colors"
                 >
                   <Mail className="h-5 w-5" />
-                  info@havensnogle.dk
+                  Eksperten_Anlgsgartneri@yahoo.com
                 </a>
               </li>
               <li className="flex items-center gap-2 text-white/80">
                 <MapPin className="h-5 w-5" />
-                Nordsjælland, Danmark
+                Birkerød, Nordsjælland
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/20 pt-8 text-center text-white/60">
-          <p>&copy; {new Date().getFullYear()} Havens Nøgle ApS. Alle rettigheder forbeholdes.</p>
+          <p>&copy; {new Date().getFullYear()} Eksperten.Online. Alle rettigheder forbeholdes.</p>
         </div>
       </div>
     </footer>
